@@ -1,0 +1,5 @@
+<launch>
+	<param name="/gnss_broadcaster/standard_parallel" value="59.361306"/>
+  	<param name="/gnss_broadcaster/map_origin" value="17.95195995 59.3614009"/>
+
+</launch>
