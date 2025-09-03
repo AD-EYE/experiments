@@ -1,0 +1,82 @@
+federates:
+[
+  {
+    federateId: 0
+    moduleName: CameraFederate
+    instanceName: CameraFederate_0
+    hostName: adeye09w
+    gpuId: -1
+    cameraType: defaultCamera
+    sensors: 
+    [
+      {
+        index: 4
+        name: Camera_1
+        cameraType: defaultCamera
+      }
+      {
+        index: 5
+        name: Camera_tl
+        cameraType: defaultCamera
+      }
+    ]
+  }
+  {
+    federateId: 1
+    moduleName: CameraFederate
+    instanceName: CameraFederate_1
+    hostName: adeye09w
+    gpuId: -1
+    cameraType: defaultCamera
+    sensors: 
+    [
+      {
+        index: 6
+        name: Camera_2
+        cameraType: defaultCamera
+      }
+    ]
+  }
+  {
+    federateId: 2
+    moduleName: CameraFederate
+    instanceName: CameraFederate_2
+    hostName: adeye09w
+    gpuId: -1
+    cameraType: pointCloud
+    sensors: 
+    [
+      {
+        index: 0
+        name: PointCloudSensor_1
+        cameraType: pointCloud
+      }
+      {
+        index: 1
+        name: PointCloudSensor_2
+        cameraType: pointCloud
+      }
+    ]
+  }
+  {
+    federateId: 3
+    moduleName: CameraFederate
+    instanceName: CameraFederate_3
+    hostName: adeye09w
+    gpuId: -1
+    cameraType: pointCloud
+    sensors: 
+    [
+      {
+        index: 2
+        name: PointCloudSensor_3
+        cameraType: pointCloud
+      }
+      {
+        index: 3
+        name: PointCloudSensor_4
+        cameraType: pointCloud
+      }
+    ]
+  }
+]
