@@ -2,4 +2,5 @@
 	<param name="/gnss_broadcaster/standard_parallel" value="59.361306"/>
   	<param name="/gnss_broadcaster/map_origin" value="17.95195995 59.3614009"/>
 
+	<node pkg="tf" type="static_transform_publisher" name="gps_to_map" args="28.5 54 0 -1.8 0 0 /map /gps_loc 10"/>
 </launch>
